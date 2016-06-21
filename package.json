@@ -1,0 +1,38 @@
+{
+  "name": "mp3network",
+  "version": "0.0.1",
+  "description": "Share your mp3 folder via browser to anyone on your LAN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mp3",
+    "mp3network",
+    "file",
+    "browser",
+    "files"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpg5000/mp3network"
+  },
+  "author": {
+    "name": "David Goussev",
+    "twitter": "dpg5000"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "content-disposition": "^0.3.0",
+    "express": "^4.9.4"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "mp3network": "index.js"
+  },
+  "readmeFilename": "Readme.md",
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
