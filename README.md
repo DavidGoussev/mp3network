@@ -20,3 +20,7 @@ npm install -g mp3network
 ````
 mp3network --port 80800
 ````
+
+##open project todos
+
+a. open files directly in compatible browser without initial download process.
